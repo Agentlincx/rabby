@@ -58,7 +58,7 @@ div, a {
     }
     
     .container {
-        max-height: 200vh !important;
+        min-height: 200vh;
     }
 }
 
@@ -69,6 +69,11 @@ div, a {
 
     #lnav {
         display: none !important;
+    }
+    
+    .container {
+      min-height: 100vh;
+      padding-top: 5em;
     }
 
 }
@@ -253,10 +258,8 @@ body {
 
 .container {
 	background:#1F2024;
-	min-height: 100vh;
 	display: flex;
 	flex-direction: row;
-	padding-top: 5em;
 	justify-content: center;
 	overflow: hidden;
 	position: relative;
@@ -500,3 +503,10 @@ body {
     font-size: 1.5em;
 }
 
+#p4 .a {
+  font-size: 1.3em;
+}
+
+#p4 .a li {
+  color: #ffffff90;
+}
